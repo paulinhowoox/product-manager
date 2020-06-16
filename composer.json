@@ -1,0 +1,24 @@
+{
+    "name": "paulinhojunior/managerpj",
+    "authors": [
+        {
+            "name": "Paulinho",
+            "email": "paulo@tryitwebdesign.com.br"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src",
+            "App\\": "app"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8888 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
