@@ -1,8 +1,8 @@
 <?php
 
-use Pimple\Container;
-
-$container = new Container();
+$container['events'] = function () {
+    return new Laminas\EventManager\EventManager;
+};
 
 $container['db'] = function () {
     $dsn = 'mysql:host=localhost;dbname=project_manager';

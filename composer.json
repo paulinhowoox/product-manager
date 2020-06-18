@@ -7,12 +7,14 @@
         }
     ],
     "require": {
-        "pimple/pimple": "^3.3"
+        "pimple/pimple": "^3.3",
+        "symfony/http-foundation": "^5.1",
+        "zendframework/zend-eventmanager": "^3.2",
+        "laminas/laminas-eventmanager": "^3.2"
     },
     "autoload": {
         "psr-4": {
-            "Framework\\": "src",
-            "App\\": "app"
+            "Framework\\": "src"
         }
     },
     "scripts": {
